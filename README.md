@@ -14,6 +14,8 @@ This is a training dojo adapted set up by https://github.com/araqnid for the Zen
   * Passing just functions to subscription
 * Observable.of() emits a sequence of values
 * Observable.forEach() as an alternative
+
+### Timing and observables
 * Write an Observable to make a delay
 * Write an Observable to output values at a fixed rate
 

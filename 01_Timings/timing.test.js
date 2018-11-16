@@ -17,7 +17,7 @@ xit("will delay completion by the given milliseconds", async () => {
 });
 
 function createFixedRateObservable(rateMilliseconds) {
-    // TODO("Create an observable which outputs values every rateMilliseconds")
+    // TODO("Create an observable which outputs values every rateMilliseconds - see git log for a hint!")
 }
 
 xit("will emit numbers every 500 milliseconds", async () => {

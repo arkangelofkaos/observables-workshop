@@ -1,6 +1,6 @@
 # Observables Workshop
 
-This is a training dojo adapted set up by https://github.com/araqnid for the Zen Obserable library: https://github.com/zenparsing/zen-observable
+This is a training dojo adapted set up by https://github.com/araqnid for the Zen Observable library: https://github.com/zenparsing/zen-observable
 
 ## Exercises
 

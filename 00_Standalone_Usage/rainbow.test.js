@@ -53,4 +53,14 @@ it("subscribe using functions", () => {
     return expect(valuesEmitted).resolves.toEqual(["red", "orange", "yellow", "green", "blue", "indigo", "violet"]);
 });
 
+it("use Observable.of and observable.forEach methods", () => {
+    const observableOfRainbow = Observable.of("TODO", "complete this so that it emits the right rainbow values");
 
+    const buffer = [];
+    const valuesEmitted =
+        observableOfRainbow.forEach(value => {
+            // TODO("Implement the forEach method so that values end up in the buffer")
+        }).then(() => buffer);
+
+    return expect(valuesEmitted).resolves.toEqual(["red", "orange", "yellow", "green", "blue", "indigo", "violet"]);
+});

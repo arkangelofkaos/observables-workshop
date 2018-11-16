@@ -11,7 +11,7 @@ const rainbow = new Observable(observer => {
     observer.complete();
 });
 
-it("subscribe using an object", () => {
+xit("subscribe using an object", () => {
     const valuesEmitted = new Promise((resolve, reject) => {
         const buffer = [];
 
@@ -33,7 +33,7 @@ it("subscribe using an object", () => {
     return expect(valuesEmitted).resolves.toEqual(["red", "orange", "yellow", "green", "blue", "indigo", "violet"]);
 });
 
-it("subscribe using functions", () => {
+xit("subscribe using functions", () => {
     const valuesEmitted = new Promise((resolve, reject) => {
         const buffer = [];
 
@@ -53,7 +53,7 @@ it("subscribe using functions", () => {
     return expect(valuesEmitted).resolves.toEqual(["red", "orange", "yellow", "green", "blue", "indigo", "violet"]);
 });
 
-it("use Observable.of and observable.forEach methods", () => {
+xit("use Observable.of and observable.forEach methods", () => {
     const observableOfRainbow = Observable.of("TODO", "complete this so that it emits the right rainbow values");
 
     const buffer = [];

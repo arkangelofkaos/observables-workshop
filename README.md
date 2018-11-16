@@ -4,7 +4,9 @@ This is a training dojo adapted set up by https://github.com/araqnid for the Zen
 ## Introduction
 * Run `npm install`
 * To execute tests, run `npm test`
-* Work through each of the exercises and make the tests pass
+* Work through each of the exercises, for each test:
+  * Unignore the test (by changing xit to it)
+  * Make the test pass
 
 ## Exercises
 

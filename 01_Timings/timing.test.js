@@ -8,7 +8,7 @@ function createDelayedObservable(delayMilliseconds) {
     );
 }
 
-it("will delay completion by the given milliseconds", async () => {
+xit("will delay completion by the given milliseconds", async () => {
     let specifiedDelay = 500;
 
     const started = new Date();

@@ -1,1 +1,1 @@
-module.exports.rainbow = require("./rainbow");
+module.exports.rainbow = require("./00_Standalone_Usage/rainbow");

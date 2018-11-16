@@ -2,6 +2,12 @@
 
 This is a training dojo adapted set up by https://github.com/araqnid for the Zen Observable library: https://github.com/zenparsing/zen-observable
 
+## Introduction
+
+* Run `npm install`
+* To execute tests, run `npm test`
+* Work through each of the exercises and make the tests pass
+
 ## Exercises
 
 ### Standalone usage

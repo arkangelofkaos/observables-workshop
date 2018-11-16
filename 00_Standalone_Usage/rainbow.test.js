@@ -1,12 +1,23 @@
-import rainbow from "./rainbow";
+import Observable from "zen-observable";
 
-it("can be subscribed to", () => {
+const rainbow = new Observable(observer => {
+    observer.next("red");
+    observer.next("orange");
+    observer.next("yellow");
+    observer.next("green");
+    observer.next("blue");
+    observer.next("indigo");
+    observer.next("violet");
+    observer.complete();
+});
+
+it("subscribe using an object", () => {
     const valuesEmitted = new Promise((resolve, reject) => {
         const buffer = [];
 
-        const subscription = rainbow.subscribe({
+        rainbow.subscribe({
             next(value) {
-                buffer.push(value);
+                TODO("Implement the next method on this subscription object, so that the values end up in the buffer");
             },
 
             complete() {
@@ -19,7 +30,7 @@ it("can be subscribed to", () => {
         });
     });
 
-    expect(valuesEmitted).resolves.toEqual(["red", "orange", "yellow", "green", "blue", "indigo", "violet"]);
+    return expect(valuesEmitted).resolves.toEqual(["red", "orange", "yellow", "green", "blue", "indigo", "violet"]);
 });
 
 xit("can be traversed with forEach", () => {

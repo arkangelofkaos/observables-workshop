@@ -32,8 +32,3 @@ it("subscribe using an object", () => {
 
     return expect(valuesEmitted).resolves.toEqual(["red", "orange", "yellow", "green", "blue", "indigo", "violet"]);
 });
-
-xit("can be traversed with forEach", () => {
-    rainbow.forEach(value => {
-    });
-});

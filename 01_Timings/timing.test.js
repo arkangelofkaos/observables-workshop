@@ -1,7 +1,7 @@
 import "regenerator-runtime";
 
 function createDelayedObservable(delayMilliseconds) {
-    // TODO("Create an observable which delays completion by the given delayMilliseconds")
+    // TODO("Create an observable which delays completion by the given delayMilliseconds - see git log for a hint!")
 }
 
 xit("will delay completion by the given milliseconds", async () => {

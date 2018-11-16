@@ -17,7 +17,7 @@ it("subscribe using an object", () => {
 
         rainbow.subscribe({
             next(value) {
-                TODO("Implement the next method on this subscription object, so that the values end up in the buffer");
+                // TODO("Implement the next method on this subscription object, so that the values end up in the buffer");
             },
 
             complete() {
@@ -32,3 +32,25 @@ it("subscribe using an object", () => {
 
     return expect(valuesEmitted).resolves.toEqual(["red", "orange", "yellow", "green", "blue", "indigo", "violet"]);
 });
+
+it("subscribe using functions", () => {
+    const valuesEmitted = new Promise((resolve, reject) => {
+        const buffer = [];
+
+        rainbow.subscribe(
+            (value) => {
+                // TODO("Implement the next method, so that values end up in the buffer")
+            },
+            (error) => {
+                // TODO("Implement the error function")
+            },
+            () => {
+                // TODO("Implement the complete function, so that the Promise resolves to the buffer")
+            }
+        );
+    });
+
+    return expect(valuesEmitted).resolves.toEqual(["red", "orange", "yellow", "green", "blue", "indigo", "violet"]);
+});
+
+

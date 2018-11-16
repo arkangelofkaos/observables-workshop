@@ -1,9 +1,7 @@
 # Observables Workshop
-
 This is a training dojo adapted set up by https://github.com/araqnid for the Zen Observable library: https://github.com/zenparsing/zen-observable
 
 ## Introduction
-
 * Run `npm install`
 * To execute tests, run `npm test`
 * Work through each of the exercises and make the tests pass
@@ -11,7 +9,6 @@ This is a training dojo adapted set up by https://github.com/araqnid for the Zen
 ## Exercises
 
 ### Standalone usage
-
 * Create an observable to emit the rainbow colours, and subscribe to it to print them out
   * Passing an object to subscription
   * Passing just functions to subscription
@@ -20,13 +17,11 @@ This is a training dojo adapted set up by https://github.com/araqnid for the Zen
 * Write an Observable to make a delay
 * Write an Observable to output values at a fixed rate
 
-### Using Observables instead of callbacks
-
+### Using Observables instead of callbacks
 * Given a simple callback-based API (e.g. nanoajax), wrap it up as an Observable
 * The same with an API that takes onSuccess and onError callbacks
 
 ### Composing Observables
-
 * Wrap an Observable in another Observable to transform its output
   * Simple transforms are simple, subscription is container’s unsubscribe
 * Use the .map method

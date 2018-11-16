@@ -12,8 +12,7 @@ it("will delay completion by the given milliseconds", async () => {
     let specifiedDelay = 500;
 
     const started = new Date();
-    await createDelayedObservable(specifiedDelay).forEach(something => {
-    });
+    await createDelayedObservable(specifiedDelay).forEach(forceObservableToCompleteViaForEach => {});
     const ended = new Date();
     const actualDelay = ended.getTime() - started.getTime();
 

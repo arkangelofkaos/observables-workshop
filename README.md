@@ -1,5 +1,7 @@
 # Observables Workshop
-This is a training dojo adapted set up by https://github.com/araqnid for the Zen Observable library: https://github.com/zenparsing/zen-observable
+This is a dojo on the Zen Observable library: https://github.com/zenparsing/zen-observable 
+
+It has been adapted from the exercises kindly set up by https://github.com/araqnid (many thanks!) 
 
 ## Introduction
 * Run `npm install`

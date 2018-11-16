@@ -14,13 +14,13 @@ This is a training dojo adapted set up by https://github.com/araqnid for the Zen
 * Write an Observable to make a delay
 * Write an Observable to output values at a fixed rate
 
-
 ### Using Observables instead of callbacks
+
 * Given a simple callback-based API (e.g. nanoajax), wrap it up as an Observable
 * The same with an API that takes onSuccess and onError callbacks
 
-
 ### Composing Observables
+
 * Wrap an Observable in another Observable to transform its output
   * Simple transforms are simple, subscription is container’s unsubscribe
 * Use the .map method
